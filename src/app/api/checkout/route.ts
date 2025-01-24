@@ -48,7 +48,7 @@ export async function POST(req: Request) {
             name: item.product.name,
             images: [item.product.image],
             metadata: {
-              databaseId: item.product.id  // এই লাইনটি যোগ করা হয়েছে
+              databaseId: item.product.id  
             }
           },
           unit_amount: item.product.price * 100,
